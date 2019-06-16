@@ -1,0 +1,8 @@
+{
+  //preset is a group of plugins
+  //-react - transpiles all jsx, flow support
+  //-env - transpiles js to all env specified (browser lists in pkj json)
+  "presets": ["@babel/preset-react", "@babel/preset-env"],
+  //specific plugin for new experimental things like below
+  "plugins": ["@babel/plugin-proposal-class-properties"]
+}
